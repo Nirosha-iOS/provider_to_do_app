@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'To-Do List',
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          primarySwatch: Color.fromARGB(255, 28, 133, 219),
         ),
         home: TodoListScreen(),
       ),
